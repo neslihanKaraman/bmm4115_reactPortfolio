@@ -1,0 +1,127 @@
+.skills-charts{
+    position: right;
+    width: 80%;
+    right: -15%;
+    height: 100%;
+    top: 0;
+    margin-left: 55%;
+    margin-top: 1%;
+    bottom: 0;
+    z-index: 2;
+}
+
+.container2{
+    max-width: 500px;
+    width: 100%;
+    background: #494c59;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.skills .text{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color:#fff;
+    font-size: 16px;
+}
+.proggres-bar{
+    background:#959595;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.proggres-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    background: white;
+}
+.proggres-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #494c59;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color:white;
+    font-size: 15dp;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.proggres-bar .html1{
+    background-color: #ffd700;
+    animation: html1 5s linear forwards;
+}
+.proggres-bar .html1 span{
+    border:1px solid #ffd700;
+}
+@keyframes html1{
+    100%{
+        width: 86%;
+    }
+}
+
+.proggres-bar .css1{
+    background-color:#ffd700;
+    animation: css1 4s linear forwards;
+}
+.proggres-bar .css1 span{
+    border:1px solid #ffd700;
+}
+@keyframes css1{
+    100%{
+        width: 90%;
+    }
+}
+.proggres-bar .java{
+    background-color:#ffd700;
+    animation: java 4s linear forwards;
+}
+.proggres-bar .java span{
+    border:1px solid #ffd700;
+}
+@keyframes java{
+    100%{
+        width: 70%;
+    }
+}
+.proggres-bar .python{
+    background-color:#ffd700;
+    animation: python 3s linear forwards;
+}
+.proggres-bar .python span{
+    border:1px solid #ffd700;
+}
+@keyframes python{
+    100%{
+        width: 60%;
+    }
+}
+.proggres-bar .csharp{
+    background-color:#ffd700;
+    animation: csharp 4s linear forwards;
+}
+.proggres-bar .csharp span{
+    border:1px solid #ffd700;
+}
+@keyframes csharp{
+    100%{
+        width: 80%;
+    }
+}
+.proggres-bar .js{
+    background-color:#ffd700;
+    animation: js 4s linear forwards;
+}
+.proggres-bar .js span{
+    border:1px solid #ffd700;
+}
+@keyframes js{
+    100%{
+        width: 75%;
+    }
+}
